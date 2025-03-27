@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Project Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Freelancer Project Manager</h1>
+        </header>
+        
+        <div class="project-form">
+            <div class="form-group">
+                <label for="project-name">Project Name</label>
+                <input type="text" id="project-name" placeholder="Enter project name">
+            </div>
+            <div class="form-group">
+                <label for="client-name">Client Name</label>
+                <input type="text" id="client-name" placeholder="Enter client name">
+            </div>
+            <div class="form-group">
+                <label for="due-date">Due Date</label>
+                <input type="date" id="due-date">
+            </div>
+            <div class="form-group">
+                <label for="payment">Payment Amount ($)</label>
+                <input type="number" id="payment" step="0.01" placeholder="Enter payment amount">
+            </div>
+            <div class="button-group">
+                <button onclick="addProject()" class="btn btn-primary">Add Project</button>
+                <button onclick="viewProjects()" class="btn btn-secondary">View Projects</button>
+            </div>
+        </div>
+
+        <div class="modal" id="project-modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Project List</h2>
+                <div id="project-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
