@@ -1,9 +1,10 @@
 ## Freelancer Project Manager
-
 A modern, responsive web application to help freelancers manage their projects with ease.
 
-## Features
+## Preview
+![image](https://github.com/user-attachments/assets/8a7fea71-21b1-4ccc-8c9f-4c01b97f3ed2)
 
+## Features
 - Add new projects with details (name, client, due date, payment)
 - View all projects in a clean modal display
 - Responsive design for desktop and mobile use
@@ -12,14 +13,12 @@ A modern, responsive web application to help freelancers manage their projects w
 - Modern color palette and typography
 
 ## Tech Stack
-
 - **HTML5**: Structure and content
 - **CSS3**: Styling with responsive design (Flexbox, Grid, Media Queries)
 - **JavaScript**: Core functionality and interactivity
 - **Google Fonts**: Poppins font for a contemporary look
 
 ## Installation
-
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/your-username/freelancer-project-manager.git
